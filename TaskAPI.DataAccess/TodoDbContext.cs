@@ -23,8 +23,8 @@ namespace TaskAPI.DataAccess
         {
             modelBuilder.Entity<Author>().HasData(new Author[]
             {
-                new Author { Id = 1,Name = "Chamara" },
-                new Author { Id = 2,Name = "Sampath" },
+                new Author { Id = 1,Name = "Chamara", AddressNo = "24", Street = "Street 1", City = "Colombo 1" },
+                new Author { Id = 2,Name = "Sampath", AddressNo = "25", Street = "Street 2", City = "Colombo 3" },
             }
             );
 
